@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Hangman</h1>
+
+    <nav>
+      <a href="/">Play</a>
+      <a href="/about">About</a>
+    </nav>
+
+  </header>
+
+  <div class="container">
+    <div class="wordSection">
+      <h4>{{#blanks}} {{.}}{{/blanks}}</h4>
+      <!-- <h4>{{randomWord}}</h4> -->
+      <p class="guessesLeft">You Have 8 Guesses Left!</p>
+    </div>
+    <div class="gameSection">
+      <form class="" action="/" method="post">
+
+        <div class="">
+          <input type="text" name="letter" value="" placeholder="Letter..">
+        </div>
+        <div>
+          <input class="button" type="submit" name="" value="Guess!">
+        </div>
+      </form>
+    </div>
+
+
+    <div class="guessedLetters">
+      <h3>Letters Guessed: {{#lettersGuessed}}{{.}}, {{/lettersGuessed}}</h3>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

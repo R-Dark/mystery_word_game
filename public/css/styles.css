@@ -1,0 +1,93 @@
+header {
+  background: #2d7bbb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 2rem;
+}
+
+ul.listing {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul.listing img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+ul.listing li {
+  display: flex;
+  flex-basis: 25%;
+  align-items: center;
+}
+
+article {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.error {
+  background: red;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 17px;
+  padding-left: 20px;
+  color: white;
+}
+
+h4 {
+  font-size: 70px;
+  color: #2d7bbb;
+}
+
+a {
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #2d7bbb;
+}
+
+.wordSection {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.gameSection {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-left: 34px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  border-style: none;
+}
+
+.guessesLeft {
+  font-size: 25px;
+}
+
+#letters {
+  font-size: 30px;
+  text-align: center;
+}
+
+.about{
+  padding-top: 50px;
+}
