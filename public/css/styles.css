@@ -91,3 +91,13 @@ h3 {
 .about{
   padding-top: 50px;
 }
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+}
+
+img {
+  height: 600px;
+}
